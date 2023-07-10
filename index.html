@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishk's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c3e854b702.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="download.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experiences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+<i class="fas fa-times" onclick="closemenu()"> </i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Abhishek Singh</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="containr">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="back.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>NAMASTE! I'm Abhishek Singh, a passionate and dedicated web developer.
+                        I specialize in creating modern and user-friendly websites that not only meet clients' needs 
+                        but also leave a lasting impression on visitors. 
+                        With a keen eye for design and a strong understanding of web technologies, 
+                        I strive to deliver exceptional digital experiences.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links activ-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Java coder</li>
+                            <li><span>Mysql</span><br>Python coder coder</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2019</span><br>High School(ICSE)</li>
+                            <li><span>2021</span><br>Intermediate(CBSE)</li>
+                            <li><span>2025</span><br>Btech(CSE)</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Experiences</h1>
+            <div class="experiences-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developing</h2>
+                    <p>I possess a diverse range of web development skills that allow me to create exceptional websites. With expertise in front-end development, I excel in crafting visually appealing and interactive user interfaces using HTML, CSS, and JavaScript. My proficiency in back-end development empowers me to build robust and scalable web applications utilizing languages like Python, PHP, or Ruby and frameworks such as Node.js or Django. I am skilled in responsive design, ensuring that websites seamlessly adapt to different devices and screen sizes. Additionally, my problem-solving abilities and continuous learning mindset enable me to tackle complex challenges and stay up to date with the latest web technologies. With these skills, I am equipped to deliver innovative and high-quality web solutions.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java coding</h2>
+                    <p>I possess a diverse range of java coding skills that allow me to create exceptional codes for probems. it helps to explore in  the world of programming as it is my first language ever through which i learn coding.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mysql</h2>
+                    <p>I possess a diverse range of in mysql that allow me to create exceptional things usiing DBMS. it helps to explore in  the world of programming and data base system as it helps me learn about the management of data through this.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle"> My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images.jpg">
+                    <div class="layer">
+                        <h3>
+                            Tic Tac Toe Game
+                        </h3>
+                        <p>Game using basic python as a minor project in 1st semester. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="download (2).png">
+                    <div class="layer">
+                        <h3>
+                           Temperature converter Website
+                        </h3>
+                        <p>Simple website to convert temperature from fahrenheit to celsius and vice-versa using html and css</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="download.jpg">
+                    <div class="layer">
+                        <h3>
+                           Netflix clone Website
+                        </h3>
+                        <p>Simple website of netflix using html,css and javascript.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"  class="btn">See more</a>
+        </div>
+    </div>
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="Contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i>arya31thakur@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8898989898</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/"></a><i class="fa-brands fa-instagram"></i>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+
+                    </div>
+                </div>
+                    <div class="Contact-right">
+                     <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                     <span id="msg"></span>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright<i class="fa-duotone fa-copyright"></i> of ABHISHEK SINGH</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby_QJdGPEbqwpyArmPG-17eb9c5Pg6OzGxUzNL7lnVegaIYmqlCEcT3EyyIY5znvYoC/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg= document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
